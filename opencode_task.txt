@@ -1,0 +1,16 @@
+1. Difference between Git and Git-hub---
+                     . Git is a version control system that keeps track of the changes we are committing to a file or any repository. While git-hub is a location where we can store all these things.
+                     . Git-hub is a web-based git repository. We Can see that Git as a single computer and GitHub as a network of multiple interconnected computers.
+Both together provides a system for contributing to open source. Using git commands we can make changes in the files while GitHub hosts all of these.  
+2.  Some commands and their functions—
+                         a) git status  used to know the state of the working directory and staging area.
+                        b) git init  used to create a local repository.
+                        C) git add --a  used to stage all the files of the working directory.
+                        d) git clone  used to make a copy of a repository from an existing URL.
+                        e) git commit -m  used to commit changes in the files of the current working directory with a comment.      
+3. How to do a pull request?
+              --> While working on any other's project, we need to make a copy of that project by doing fork on github. 
+              --> After cloning that project to our local git,we can make some changes on that.
+              -->After doing all the changes and committing it,we push that to our github fork. (git push url_name)
+                         Then there in our repository will show it as a new commit,we can send a pull request to the original repo.
+                        There is a pull request option on our github,we have to click that and have to add a proper comment with that.
